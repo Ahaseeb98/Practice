@@ -262,20 +262,159 @@
 // alert(x);
 
 
-// 11. The Age Calculator: Forgot how old someone is? Calculate it!
+//          11. The Age Calculator: Forgot how old someone is? Calculate it!
 
-var x = 1998;
-var y = 2017;
-var z = 2017 - 1998;
-var a = z - 1 ;
-alert("They are either "+z+" or "+a+" ");
-
-
+// var x = 1998;
+// var y = 2017;
+// var z = 2017 - 1998;
+// var a = z - 1 ;
+// alert("They are either "+z+" or "+a+" ");
 
 
+//          12. The Geometrizer: Calculate properties of a circle.
+
+// var radius = 10;
+// var carcum = 2 * 3.142 * radius;
+// var area = 3.142 * (radius * radius) ;
+// document.write("The Geometerizer");
+// document.write("The radius of the circle is "+radius+"");
+// document.write("The circumference of the circle is "+carcum+"");
+// document.write("The area of the circle is "+area+"");
 
 
 
+//                            USER INPUT & CONDITIONAL STATEMENTS
+
+// 1. Write a program that takes input a name from user & greet the user like this:
+
+// var x = prompt("Please Enter your Name :  ");
+// alert("Hi , "+x+" ");
+
+
+// 2. Write a program to take input a number from user & display it’s multiplication table on your browser
+
+// var x = prompt("Enter a value for Table : ");
+// var y ;
+// for(var i = 1;i <= 10 ;i++){
+//     y = x*i
+//     document.write("<h4> "+x+" x "+i+" = "+y+"</h4> ");
+// }
+
+
+//           3. Write a program to take “city” name as input from user
+
+// var city = prompt("Enter your city name : ");
+
+// if (city === "karachi") {
+//     alert("Welcome to the city of lights");
+// }
+// else{
+//     alert("It doesn't matter what the name of your city is");
+// }
+
+
+//          4. Write a program to take “gender” as input from user.
+
+
+// var x = prompt("Enter your Gender here : ");
+// if (x == "male"){
+//     alert("Good Morning Sir : ");
+// }
+// else {
+//     alert("Good Morning Ma'am");
+// }
+
+
+//           6. Write a program to take input max age & current age from user.
+
+// var x = prompt("Enter your Max age : ");
+// var y = prompt("Enter your Current age : ");
+// if (y <= x) {
+//     alert("You are Welcome");
+// }
+
+
+//              7. Write a program to take input remaining fuel in car (in litres) from user.
+
+// var x = prompt("Please input remaining feul in your car : ");
+// if (x <= 0.25) {
+//     alert("Please refill your feul");
+// }
+
+//  9. Write a program to take input the marks obtained in three subjects & total marks.
+
+// var total = 500;
+// var obt;
+// var per;
+// var grade;
+// var eng = +prompt("Enter obtained marks in English : ");
+// var urdu = +prompt("Enter obtained marks in Urdu : ");
+// var chem = +prompt("Enter obtained marks in Chemistry : ");
+// var phy = +prompt("Enter obtained marks in Physics : ");
+// var isl = +prompt("Enter obtained marks in Islamiat : ");
+// obt = eng + urdu + chem + phy + isl;
+// per = obt/5;
+// document.write("<h1>MARK SHEET</h1>");
+// document.write("<h3>Total Marks = "+total+"</h3>");
+// document.write("<h3>Marks Obtained = "+obt+"</h3>");
+// document.write("<h3>Percentage = "+per+"</h3>");
+// if (per >= 80){
+//     document.write("<h4>Your Grade is A+</h4>");
+// }
+// else if(per >= 70){
+//     document.write("<h4>Your Grade is A</h4>");
+// }
+// else if(per >= 60){
+//     document.write("<h4>Your Grade is B</h4>");
+// }
+// else if(per >= 50){
+//     document.write("<h4>Your Grade is C</h4>");
+// }
+// else if(per >= 40){
+//     document.write("<h4>Your Grade is D</h4>");
+// }
+// else {
+//     document.write("<h4>Failed</h4>");
+// }
+
+
+
+
+//                   IF…ELSE &ELSIFSTATEMENTS,TESTING SET OF CONDITIONS & SWITCH STATEMENTS|JAVASCRIPT 
+
+
+
+//                      1. Write a program to check whether the given input number is divisible by 3
+
+// var x = prompt("Enter a Value to be divised by 3 :");
+// var y = x % 3;
+// if (y == 0) {
+//     alert(" "+x+" is perfectly divisable by 3." );
+// }
+// else {
+//     alert(" "+x+" is not divisable by 3." );
+// }
+
+// 2. Write a program that checks whether the given input is an even number or an odd number.
+
+// var x = prompt("Enter a value : ");
+// y = x % 2;
+// if (y == 0) {
+//         alert(" "+x+" is Even." );
+//     }
+//     else {
+//         alert(" "+x+" is Odd" );
+//     }
+
+// 3. If the variable age is greater than 18, output "Old enough", otherwise output "Too young".
+
+var x = prompt("Enter your age");
+if (x >= 18) {
+    alert("Old Enough");
+}
+else {
+    alert("Too Young");
+}
 
 
 
